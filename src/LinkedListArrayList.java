@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class App {
+public class LinkedListArrayList {
     public static void main(String[] args) throws Exception {
         // DynamicArray dynamicArray = new DynamicArray(5);
 
@@ -43,7 +43,7 @@ public class App {
         //do something
         //linkedList.get(0);
        //linkedList.get(5000);
-      // linkedList.get(999999);
+       //linkedList.get(999999);
        //linkedList.remove(500000);
        linkedList.remove(999999);
 
@@ -59,11 +59,11 @@ public class App {
         //do something
        // arrayList.get(0);
 
-      // arrayList.get(5000);
-     //  arrayList.get(999999);
+        //arrayList.get(5000);
+        //arrayList.get(999999);
 
-    // arrayList.remove(500000);
-     arrayList.remove(999999);
+        // arrayList.remove(500000);
+        arrayList.remove(999999);
 
         endTime = System.nanoTime();
 
