@@ -18,7 +18,9 @@ public class GraphNode {
      graph.addEdge(4, 0);
      graph.addEdge(4, 2);
 
-     graph.print();
+     //graph.print();
+     //
+     graph.depthFirstSearch(3);
    }
 
 }
