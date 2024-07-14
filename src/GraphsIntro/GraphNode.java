@@ -16,7 +16,7 @@ public class GraphNode {
      graph.addEdge(2, 3);
      graph.addEdge(2, 4);
      graph.addEdge(4, 0);
-     graph.addEdge(4, 0);
+     graph.addEdge(4, 2);
 
      graph.print();
    }
