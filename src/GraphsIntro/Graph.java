@@ -3,6 +3,8 @@ package GraphsIntro;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+
+// *********************** Adjacency matrix ***********************
 // public class Graph {
 //     ArrayList<Node> nodes;
 //     int[][] matrix;
@@ -48,6 +50,7 @@ import java.util.LinkedList;
     
 // }
 
+// *********************** Adjacency list ***********************
 public class Graph {
     ArrayList<LinkedList<Node>> alist;
 
