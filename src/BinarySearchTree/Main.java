@@ -3,6 +3,8 @@ package BinarySearchTree;
 public class Main {
     
     public static void main(String[] args) {
+        long start = System.nanoTime();
+
         BinarySearchTree tree = new BinarySearchTree();
 
         tree.insert(new Node2(9));
@@ -17,6 +19,8 @@ public class Main {
         tree.display();
 
        // System.out.println(tree.search(23));
-        
+
+        long duration = (System.nanoTime() - start)/ 1000000;
+        System.out.println("duration of the program: " + duration + " ms");
     }
 }
